@@ -22,7 +22,7 @@ module "ec2_instance" {
 
   ami                    = "ami-0ed094fb1304fd857"
   instance_type          = "t3.micro"
-  key_name               = "terraform_Server"
+  key_name               = "Terraform-key"
   monitoring             = true
   vpc_security_group_ids = ["sg-0cca2ef92984e8053"]
   subnet_id              = "subnet-017ad3b7be4236d51"
