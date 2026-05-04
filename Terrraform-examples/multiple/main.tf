@@ -24,8 +24,8 @@ module "ec2_instance" {
   instance_type          = "t3.micro"
   key_name               = "terraform_Server"
   monitoring             = true
-  vpc_security_group_ids = ["sg-01175d2568a7f698b"]
-  subnet_id              = "subnet-082574a5d56740791"
+  vpc_security_group_ids = ["sg-0cca2ef92984e8053"]
+  subnet_id              = "subnet-017ad3b7be4236d51"
 
   tags = {
     Terraform   = "true"
