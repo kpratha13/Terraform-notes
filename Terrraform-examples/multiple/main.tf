@@ -20,7 +20,7 @@ module "ec2_instance" {
 
   name = "instance-${each.key}"
 
-  ami                    = "ami-098e39bafa7e7303d"
+  ami                    = "ami-0ed094fb1304fd857"
   instance_type          = "t3.micro"
   key_name               = "terraform_Server"
   monitoring             = true
