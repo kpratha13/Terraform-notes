@@ -8,11 +8,11 @@ module "ec2_instance" {
 
   name = "single-instance"
 
-  ami                    = "ami-098e39bafa7e7303d"
+  ami                    = "ami-0eb38b817b93460ac"
   instance_type          = "t3.micro"
-  key_name               = "terraform_Server"
+  key_name               = "Terraform-key"
   monitoring             = true
-  subnet_id = "subnet-082574a5d56740791"
+  subnet_id = "subnet-017ad3b7be4236d51"
   
   tags = {
     Name = "terraform-instance"
